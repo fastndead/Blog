@@ -1,0 +1,26 @@
+.user-card{
+    background: #fff;
+    border-radius: 2px;
+    min-height: 100px;
+    position: relative;
+    box-shadow: 0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23);
+    padding: 0;
+}
+.user-caption{
+    font-size:15px;
+    font-weight: normal;
+}
+.user-card h1{
+    margin-top: 0px;
+}
+.user-card-body{
+    padding:30px;
+}
+.card{
+    margin: 0;
+    width: auto;
+    margin-bottom: 15px;
+}
+.col-md-9{
+    padding-right: 0px!important;
+}

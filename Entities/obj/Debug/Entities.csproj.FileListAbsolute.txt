@@ -1,0 +1,9 @@
+/Users/ASMANandNASTYA/Projects/Blog/Entities/bin/Debug/Entities.dll
+/Users/ASMANandNASTYA/Projects/Blog/Entities/bin/Debug/Entities.pdb
+/Users/ASMANandNASTYA/Projects/Blog/Entities/bin/Debug/System.ComponentModel.Annotations.dll
+/Users/ASMANandNASTYA/Projects/Blog/Entities/bin/Debug/System.ComponentModel.Annotations.xml
+/Users/ASMANandNASTYA/Projects/Blog/Entities/obj/Debug/Entities.csprojAssemblyReference.cache
+/Users/ASMANandNASTYA/Projects/Blog/Entities/obj/Debug/Entities.csproj.CoreCompileInputs.cache
+/Users/ASMANandNASTYA/Projects/Blog/Entities/obj/Debug/Entities.csproj.CopyComplete
+/Users/ASMANandNASTYA/Projects/Blog/Entities/obj/Debug/Entities.dll
+/Users/ASMANandNASTYA/Projects/Blog/Entities/obj/Debug/Entities.pdb

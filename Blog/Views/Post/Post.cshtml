@@ -1,0 +1,33 @@
+@model Entities.Post
+
+<link href="@Url.Content("~/Content/Home.css")" rel="stylesheet" type="text/css" />
+<link href="@Url.Content("~/Content/Comments.css")" rel="stylesheet" type="text/css" />
+
+<div class="card">
+    <div class="card-header">
+        <a
+            class="user-name"
+            href = '@Url.Action("User", "User")?id=@Model.Author.Id'>
+            @Model.Author.Name
+        </a> пишет:
+    </div>
+    <h1 class="card-title">
+        @Model.Title
+    </h1>
+    <div class="card-body">
+        @Model.Text
+    </div>
+</div>
+<div class="well">
+    <h1>Комментарии</h1>
+    <input type="text" id="userComment" class="form-control input-sm chat-input" placeholder="Напишите комментарий здесь..." />
+    <div class="input-group-btn" onclick="cm.AddComment()">     
+        <a href="#" class="btn btn-primary btn-sm"><span class="glyphicon glyphicon-comment"></span> Добавить комментарий</a>
+    </div>
+    <hr>
+    <ul id="comment-list" class="list-unstyled">
+    </ul>
+</div>
+
+<script src="~/Scripts/src/requestDB.js"></script>
+<script src="~/Scripts/src/CommentManager.js"></script>

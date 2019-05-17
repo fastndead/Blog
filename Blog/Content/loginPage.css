@@ -1,0 +1,95 @@
+body {
+    font-family: "Lato", sans-serif;
+}
+
+
+
+.main-head{
+    height: 150px;
+    background: #FFF;
+
+}
+
+.sidenav {
+    height: 100%;
+    overflow-x: hidden;
+    padding-top: 20px;
+
+    /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#7a1d91+0,204bad+100 */
+    background: #7a1d91; /* Old browsers */
+    background: -moz-linear-gradient(-45deg, #7a1d91 0%, #204bad 100%); /* FF3.6-15 */
+    background: -webkit-linear-gradient(-45deg, #7a1d91 0%,#204bad 100%); /* Chrome10-25,Safari5.1-6 */
+    background: linear-gradient(135deg, #7a1d91 0%,#204bad 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#7a1d91', endColorstr='#204bad',GradientType=1 ); /* IE6-9 fallback on horizontal gradient */
+}
+footer{
+    display: none!important;
+}
+
+.main {
+    padding: 0px 10px;
+}
+
+@media screen and (max-height: 450px) {
+    .sidenav {padding-top: 15px;}
+}
+
+@media screen and (max-width: 450px) {
+    .login-form{
+        margin-top: 10%;
+    }
+
+    .register-form{
+        margin-top: 10%;
+    }
+}
+
+@media screen and (min-width: 768px){
+    .main{
+        margin-left: 90%;
+        min-width: 20%;
+    }
+
+    .sidenav{
+        width: 80%;
+        position: fixed;
+        z-index: 1;
+        top: 0;
+        left: 0;
+    }
+
+    .login-form{
+        margin-top: 150%;
+    }
+
+    .register-form{
+        margin-top: 20%;
+    }
+}
+
+
+.login-main-text{
+    margin-top: 20%;
+    padding: 60px;
+    color: #fff;
+}
+
+.login-main-text h2{
+    font-weight: 300;
+    font-size: 60px;
+}
+
+.login-main-text p{
+    font-weight: 500;
+    font-size: 19px;
+}
+
+.btn-submit{
+    background-color: #7A1D91 !important;
+    color: #fff;
+}
+.btn-secondary{
+    background-color: #204BAD !important;
+    color: #fff;
+}
+

@@ -1,0 +1,6 @@
+/Users/ASMANandNASTYA/Projects/Blog/IDataAccessLayer/bin/Debug/IDataAccessLayer.dll
+/Users/ASMANandNASTYA/Projects/Blog/IDataAccessLayer/bin/Debug/IDataAccessLayer.pdb
+/Users/ASMANandNASTYA/Projects/Blog/IDataAccessLayer/obj/Debug/IDataAccessLayer.csprojAssemblyReference.cache
+/Users/ASMANandNASTYA/Projects/Blog/IDataAccessLayer/obj/Debug/IDataAccessLayer.csproj.CoreCompileInputs.cache
+/Users/ASMANandNASTYA/Projects/Blog/IDataAccessLayer/obj/Debug/IDataAccessLayer.dll
+/Users/ASMANandNASTYA/Projects/Blog/IDataAccessLayer/obj/Debug/IDataAccessLayer.pdb

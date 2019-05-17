@@ -1,0 +1,9 @@
+/Users/ASMANandNASTYA/Projects/Blog/IBusinessLogicLayer/bin/Debug/IBusinessLogicLayer.dll
+/Users/ASMANandNASTYA/Projects/Blog/IBusinessLogicLayer/bin/Debug/IBusinessLogicLayer.pdb
+/Users/ASMANandNASTYA/Projects/Blog/IBusinessLogicLayer/bin/Debug/Entities.dll
+/Users/ASMANandNASTYA/Projects/Blog/IBusinessLogicLayer/bin/Debug/Entities.pdb
+/Users/ASMANandNASTYA/Projects/Blog/IBusinessLogicLayer/obj/Debug/IBusinessLogicLayer.csprojAssemblyReference.cache
+/Users/ASMANandNASTYA/Projects/Blog/IBusinessLogicLayer/obj/Debug/IBusinessLogicLayer.csproj.CoreCompileInputs.cache
+/Users/ASMANandNASTYA/Projects/Blog/IBusinessLogicLayer/obj/Debug/IBusinessLogicLayer.csproj.CopyComplete
+/Users/ASMANandNASTYA/Projects/Blog/IBusinessLogicLayer/obj/Debug/IBusinessLogicLayer.dll
+/Users/ASMANandNASTYA/Projects/Blog/IBusinessLogicLayer/obj/Debug/IBusinessLogicLayer.pdb

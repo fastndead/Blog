@@ -1,0 +1,53 @@
+@using System.Web.Services.Description
+@model Entities.User
+  
+<body>  
+<link href="@Url.Content("~/Content/loginPage.css")" rel="stylesheet" type="text/css" />
+
+
+@using (Html.BeginForm())  
+
+
+    {  <div class="sidenav">
+           <div class="login-main-text">
+               <h2>Hello There! <br/>Welcome to our website</h2>
+               <p>Please, log in to proceed</p>
+           </div>
+       </div>
+        <div class="main">
+            <div class="col-8 col-sm-16">
+                <div class="login-form">
+                    <form>
+                        <div style="color: #b22222; margin-top: -20px;" >
+                            @ViewBag.WrongPassword
+                        </div>
+                        <div class="form-group">
+                            <label style="width: 80px;">User Name</label>
+                            @Html.EditorFor(model => model.Name)
+                            <div style="color: #b22222">
+                                @Html.ValidationMessageFor(model => model.Name)
+                            </div>
+                        </div>
+                        <div class="form-group">
+                            <label style="width: 80px;">Password</label>
+                            @Html.EditorFor(model => model.Password)
+                            <div style="color: #b22222">
+                                @Html.ValidationMessageFor(model => model.Password)
+                            </div>
+
+                        </div>
+                        <button type="submit" class="btn btn-submit">Login</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+        <div class="alert alert-warning alert-dismissible fade show" role="alert">
+            <strong>Holy guacamole!</strong> You should check in on some of those fields below.
+            <button type="button" class="close" data-dismiss="alert" aria-label="Close">
+                <span aria-hidden="true">&times;</span>
+            </button>
+        </div>
+    }  
+
+</body>  
+ 

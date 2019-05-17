@@ -1,0 +1,27 @@
+﻿@model IEnumerable<Entities.Post>
+
+<link href="@Url.Content("~/Content/Home.css")" rel="stylesheet" type="text/css" />
+@foreach (var post in Model)
+{
+    <div class="card">
+        <div class="card-header">
+            <a
+                class="user-name"
+                href = '@Url.Action("User", "User")?id=@post.Author.Id'>
+                @post.Author.Name
+            </a> пишет:
+        </div>
+        <h1 class="card-title">
+            @post.Title
+        </h1>
+        <div class="card-body">
+            @post.Text
+        </div>
+        <div class="card-buttons">
+            <a href = '@Url.Action("Post", "Post")?id=@post.Id'>
+                <img src="~/Content/Images/Comment.svg"/>
+            </a>
+        </div>
+    </div>
+}
+

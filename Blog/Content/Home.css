@@ -1,0 +1,52 @@
+.card {
+    background: #fff;
+    min-height: 100px;
+    position: relative;
+    width: 80%;
+    border-radius: 2px;
+    box-shadow: 0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23);
+    margin-left: 10%;
+    margin-right: 10%;
+    margin-bottom: 15px;
+}
+
+
+.user-name{
+    font-size: 15px;
+    color: #FFFF00;
+}
+
+
+.card-header{
+    padding: 5px;
+    padding-left: 15px;
+    font-size: 13px;
+    color: white;
+    border-radius: 2px;
+    background-color: #7A1D91 ;
+}
+
+.card-body{
+    padding: 20px;
+    padding-top: 5px;
+}
+
+.card-title{
+    font-size: 35px;
+    margin:0;
+    padding: 20px;
+    padding-bottom: 0px;
+
+}
+
+.card-buttons img {
+    width: 30px;
+}
+.card-buttons{
+    padding: 5px;
+    text-align: right;
+    padding-right: 10px;
+    padding-bottom: 10px;
+    padding-top: 10px;
+
+}

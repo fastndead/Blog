@@ -1,0 +1,16 @@
+/Users/ASMANandNASTYA/Projects/Blog/BusinessLogicLayer/bin/Debug/BusinessLogicLayer.dll
+/Users/ASMANandNASTYA/Projects/Blog/BusinessLogicLayer/bin/Debug/BusinessLogicLayer.pdb
+/Users/ASMANandNASTYA/Projects/Blog/BusinessLogicLayer/bin/Debug/DataAccessLayer.dll
+/Users/ASMANandNASTYA/Projects/Blog/BusinessLogicLayer/bin/Debug/Entities.dll
+/Users/ASMANandNASTYA/Projects/Blog/BusinessLogicLayer/bin/Debug/IBusinessLogicLayer.dll
+/Users/ASMANandNASTYA/Projects/Blog/BusinessLogicLayer/bin/Debug/IDataAccessLayer.dll
+/Users/ASMANandNASTYA/Projects/Blog/BusinessLogicLayer/bin/Debug/DataAccessLayer.pdb
+/Users/ASMANandNASTYA/Projects/Blog/BusinessLogicLayer/bin/Debug/DataAccessLayer.dll.config
+/Users/ASMANandNASTYA/Projects/Blog/BusinessLogicLayer/bin/Debug/Entities.pdb
+/Users/ASMANandNASTYA/Projects/Blog/BusinessLogicLayer/bin/Debug/IBusinessLogicLayer.pdb
+/Users/ASMANandNASTYA/Projects/Blog/BusinessLogicLayer/bin/Debug/IDataAccessLayer.pdb
+/Users/ASMANandNASTYA/Projects/Blog/BusinessLogicLayer/obj/Debug/BusinessLogicLayer.csprojAssemblyReference.cache
+/Users/ASMANandNASTYA/Projects/Blog/BusinessLogicLayer/obj/Debug/BusinessLogicLayer.csproj.CoreCompileInputs.cache
+/Users/ASMANandNASTYA/Projects/Blog/BusinessLogicLayer/obj/Debug/BusinessLogicLayer.csproj.CopyComplete
+/Users/ASMANandNASTYA/Projects/Blog/BusinessLogicLayer/obj/Debug/BusinessLogicLayer.dll
+/Users/ASMANandNASTYA/Projects/Blog/BusinessLogicLayer/obj/Debug/BusinessLogicLayer.pdb

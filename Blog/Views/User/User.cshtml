@@ -1,0 +1,54 @@
+@model Entities.User
+
+<link href="//netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap.min.css" rel="stylesheet" id="bootstrap-css">
+<script src="//netdna.bootstrapcdn.com/bootstrap/3.0.0/js/bootstrap.min.js"></script>
+<script src="//code.jquery.com/jquery-1.11.1.min.js"></script>
+
+<link href="@Url.Content("~/Content/Home.css")" rel="stylesheet" type="text/css" />
+<link href="@Url.Content("~/Content/SubscribeButton.css")" rel="stylesheet" type="text/css" />
+<link href="@Url.Content("~/Content/User.css")" rel="stylesheet" type="text/css" />
+
+<div class="col-md-3 user-card">
+    <div class="card-header">
+        Пользователь
+    </div>
+    <div class="user-card-body">
+        <h1><span class="user-caption">Имя:</span> @Model.Name</h1>
+        <p>Количество постов: @Model.Posts.Count() </p>
+        <div class="container subscribe-button-container"><a class="subscribe-button">
+            <svg xmlns="http://www.w3.org/2000/svg">
+                <g>
+                    <rect class="plus__line1" width="2" height="12" x="5" y="0"></rect>
+                    <rect class="plus__line2" width="12" height="2" x="0" y="5"></rect>
+                </g>
+            </svg><span class="subscribe-text">Subscribe</span></a></div>
+                <script src="~/Scripts/src/requestDB.js"></script>
+
+                <script src="~/Scripts/src/SubscriptionManager.js"></script>
+                <script>
+                    
+                 </script>
+
+
+    </div>
+</div>
+<div class="col-md-9">
+    @foreach (var post in Model.Posts)
+    {
+        <div class="card">
+            <div class="card-header">
+                <a
+                    class="user-name"
+                    href = '@Url.Action("User", "User")?id=@post.Author.Id'>
+                    @post.Author.Name
+                </a> пишет:
+            </div>
+            <h1 class="card-title">
+                @post.Title
+            </h1>
+            <div class="card-body">
+                @post.Text
+            </div>
+        </div>
+    }
+</div>

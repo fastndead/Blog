@@ -1,0 +1,28 @@
+﻿<Properties StartupConfiguration="{9BC4A0B5-7F90-465B-8D70-BBAF403E1F11}|">
+  <MonoDevelop.Ide.ItemProperties.Blog PreferredExecutionTarget="MonoDevelop.Default" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="Blog/Controllers/LoginController.cs">
+    <Files>
+      <File FileName="Blog/Controllers/LoginController.cs" Line="12" Column="2" />
+    </Files>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State name="__root__">
+          <Node name="Blog" expanded="True">
+            <Node name="Blog" expanded="True">
+              <Node name="Controllers" expanded="True" selected="True" />
+              <Node name="Views" expanded="True" />
+            </Node>
+            <Node name="DataAccessLayer" expanded="True" />
+            <Node name="Entities" expanded="True" />
+          </Node>
+        </State>
+      </Pad>
+    </Pads>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MultiItemStartupConfigurations />
+</Properties>
